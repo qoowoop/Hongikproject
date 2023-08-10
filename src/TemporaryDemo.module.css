@@ -1,0 +1,74 @@
+.demo {
+    margin: 20px 25px;
+    /* padding: 5px; */
+    width: 230px;
+    height: 230px;
+
+    border: 2px solid #41A4FF;
+    border-radius: 7px;
+
+}
+
+.status {
+    display: flex;
+}
+
+.activeBtn {
+    width: 60px;                          /*width를 px로 설정하면 세로정렬이 되는 이유 공부*/
+    margin-top: 5%;
+    margin-left: 8%;
+    border: none;
+    border-radius:20px;
+    color: white;
+    background-color: #41A4FF;
+    font-size:13px;
+}
+
+
+.projectBtn {
+    width: 75px;   
+    margin-top: 5%;                       
+    margin-left: 5%;
+    border: none;
+    border-radius:20px;
+    color: white;
+    background-color: #41A4FF;
+    font-size: 13px;
+}
+
+.icon {
+    margin-top: 5%;                       
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 12%;
+    margin-left: 8%;
+    cursor: pointer;
+}
+
+.underlinecon {
+    margin-top: 110px;
+    padding: 0 20px;
+
+}
+
+.underline {
+    border: 1px solid;
+}
+
+.bottomstatus {
+    display: flex;
+    flex-direction: row;
+}
+
+.user {
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+.date {
+    margin-top: 3.2%;
+    margin-left: 4%;
+}

@@ -1,0 +1,94 @@
+.body {
+    margin-top: 10%;
+    height:1024px;
+    margin-left:10%;
+    margin-right:10%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+
+    font-family: "GangwonState";
+}
+
+
+
+.menu {
+    border:1.5px solid;
+    border-radius: 2px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    
+}
+
+.title {
+    width: 60%;
+    height: 25px;
+    text-align: center;
+    line-height: 30px;                  /*내가 임의로 가운데 정렬 한거라 유지보수용으로 적절치 않음*/
+    border-radius: 2px;
+    background-color: #41A4FF;
+
+
+}
+
+.status {
+    width: 40%;
+    height: 25px;
+    text-align: center;
+    line-height: 30px;                  /*내가 임의로 가운데 정렬 한거라 유지보수용으로 적절치 않음*/
+    background-color: white;
+    border-radius: 2px;
+}
+
+.content {
+    margin-top: 2px;
+    border: 1px solid;
+    border-radius: 3px;
+    height: 25px;
+
+    border: 1px solid;       /* 마감 전 지우기*/
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.activeBtn {
+    width: 5%;                          /*width를 px로 설정하면 세로정렬이 되는 이유 공부*/
+    margin-left: 1%;
+    border: none;
+    border-radius:20px;
+    color: white;
+    background-color: #41A4FF;
+    cursor: pointer;
+}
+
+.name {
+    margin-left: 3%;
+}
+
+
+
+.deleteBtn {
+    margin-left: 60.8%;
+    border: none;
+    border-radius:20px;
+    color: white;
+    background-color: #41A4FF;
+    cursor: pointer;
+}
+
+
+/*=========================================================================================================================*/
+
+.study {
+    margin-top: 20%;
+}
+
+.team {
+    margin-top: 20%;
+}

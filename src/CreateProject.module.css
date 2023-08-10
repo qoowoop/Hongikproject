@@ -1,0 +1,150 @@
+.body {
+    height: 1024px;
+}
+
+
+.protitle {
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tinput {
+    width:100%;
+    height: 40px;
+}
+
+.underline {
+    width:100%;
+    margin-top:3%;
+    margin-bottom: 3%;
+    
+    border: 1px solid;
+}
+
+.info1 {
+    margin-top: 2.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.recruitarea {
+    margin-right: 2%;
+}
+
+.recruitinput {
+    margin-right: 18%;
+    width: 30%;
+    height: 30px;
+}
+
+.stack {
+    margin-right: 2%;
+}
+
+.stackinput {
+    width: 30%;
+    height: 30px;
+}
+
+
+
+
+.info2 {
+    margin-top: 2.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.memnumber {
+    margin-right: 2%;
+}
+
+.numinput {
+    margin-right: 24%;
+    width: 5%;
+    height: 20px;
+}
+
+.front {
+    margin-right: 2%;
+}
+
+.meminput {
+    margin-right: 7%;
+    width: 5%;
+    height: 20px;
+}
+
+.back {
+    margin-right: 2%;
+}
+
+.designer {
+    margin-right: 2%;
+}
+
+.designinput {
+    width: 5%;
+    height: 20px;
+}
+
+.underline2 {
+    /* width:100%; */
+    margin-top:3%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    border: 1px solid;
+}
+
+.explain {
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 22%;                      /*?ÉÅ?ô©??? ?òëÍ∞ôÏ???ç∞ ?ñòÎß? margin-right?ùÑ 20?úºÎ°? ?Ñ§?†ï ?ãú ?ïàÎßûÏùå*/
+}
+
+.projectexplain {
+    width: 100%;
+    height: 550px;
+    padding: 15px;
+    font-size: 18px;
+    resize: none;
+}
+
+.btn {
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.createbtn {
+    margin-left: 39%;
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius:20px;
+    color: white;
+    background-color: #41A4FF;
+    cursor: pointer;
+}
+
+.cancelbtn {
+    margin-left: 6%;
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius:20px;
+    color: white;
+    background-color: #41A4FF;
+    cursor: pointer;
+}
